@@ -8,7 +8,7 @@ if expoente == 1:
   print(f"Todo número elevado a 1 é igual a ele mesmo, logo, é igual a {base}")
 
 elif expoente == 0:
-  print("Todo número elevado a 0 é igual a zero")
+  print("Todo número elevado a 0 é igual a um")
 
 elif expoente < 0:
   for num1 in range(1, abs(expoente)):
